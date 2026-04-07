@@ -10,11 +10,12 @@ selamlar hocam, bu proje şebinkarahisar myo bilgi güvenliği programı için h
 
 ## teknik detay
 * **dil:** dart / flutter (setstate mimarisi)
-* **test:** arayüz ve geçiş testleri yapılmıştır.
+* **test:** arayüz ve geçiş testleri doğrulanmıştır.
 
-## kurulum ve apk yolu
-hocam uygulamanın bitmiş halini (apk) şu iki yerden bulabilirsiniz:
-1. sağdaki **"releases"** kısmına profesyonel sürüm olarak ekledim.
-2. klasör içinde şu yoldadır: `build/app/outputs/flutter-apk/app-release.apk`
+## kurulum ve apk erişimi
+hocam github güvenlik ve 25 mb boyut sınırı nedeniyle ağır "build" klasörlerini otomatik engellemektedir. bu yüzden uygulamayı (apk) şu şekilde inceleyebilirsiniz:
 
-kodlar `lib/main.dart` içindedir. keşap'tan selamlar hocam, iyi incelemeler.
+1. **ana indirme yolu:** sağ taraftaki **"releases"** sekmesine tıklayarak `app-release.apk` dosyasını direkt telefonunuza indirebilirsiniz. (en profesyonel ve güvenli yol budur hocam.)
+2. **kod inceleme:** projenin tüm kaynak kodları `lib/main.dart` içindedir.
+
+Keşap'tan selamlar hocam, iyi incelemeler.
