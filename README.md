@@ -1,17 +1,20 @@
-# flutter_application_1
+# mailtask pro - akıllı ajanda sistemi
 
-A new Flutter project.
+selamlar hocam, bu proje şebinkarahisar myo bilgi güvenliği programı için hazırladığım mobil uygulama projemdir.
 
-## Getting Started
+## projenin özellikleri
+* **performans paneli:** görevlerin bitme oranını hesaplayan analiz ekranı.
+* **yana kaydırma (dismissible):** mesajları sağa-sola kaydırarak arşivleme veya silme.
+* **akıllı arama:** iletiler içinde anlık metin filtreleme.
+* **gerçekçi veriler:** giresun belediyesi stajım ve beşiktaş verileriyle hazırlandı.
 
-This project is a starting point for a Flutter application.
+## teknik detay
+* **dil:** dart / flutter (setstate mimarisi)
+* **test:** arayüz ve geçiş testleri yapılmıştır.
 
-A few resources to get you started if this is your first Flutter project:
+## kurulum ve apk yolu
+hocam uygulamanın bitmiş halini (apk) şu iki yerden bulabilirsiniz:
+1. sağdaki **"releases"** kısmına profesyonel sürüm olarak ekledim.
+2. klasör içinde şu yoldadır: `build/app/outputs/flutter-apk/app-release.apk`
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+kodlar `lib/main.dart` içindedir. keşap'tan selamlar hocam, iyi incelemeler.
